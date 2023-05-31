@@ -1,0 +1,50 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets # dataset root dir
+train:  train/images # train images (relative to 'path') 118287 images
+val: val/images  # val images (relative to 'path') 5000 images
+#test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: URSA_-135_0.25
+  1: URSA_-135_0.5
+  2: URSA_-135_0.75
+  3: URSA_-135_1
+  4: URSA_-90_0.25
+  5: URSA_-90_0.5
+  6: URSA_-90_0.75
+  7: URSA_-90_1
+  8: URSA_-45_0.25
+  9: URSA_-45_0.5
+  10: URSA_-45_0.75
+  11: URSA_-45_1
+  12: URSA_0_0.25
+  13: URSA_0_0.5
+  14: URSA_0_0.75
+  15: URSA_0_1
+  16: URSA_45_0.25
+  17: URSA_45_0.5
+  18: URSA_45_0.75
+  19: URSA_45_1
+  20: URSA_90_0.25
+  21: URSA_90_0.5
+  22: URSA_90_0.75
+  23: URSA_90_1
+  24: URSA_135_0.25
+  25: URSA_135_0.5
+  26: URSA_135_0.75
+  27: URSA_135_1
+  28: URSA_180_0.25
+  29: URSA_180_0.5
+  30: URSA_180_0.75
+  31: URSA_180_1
+
